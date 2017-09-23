@@ -34,6 +34,22 @@
         }
       }
     }
+    .header-phone {
+      display: inline-block;
+      position: absolute;
+      margin-top: -30px;
+      font-size: 13px;
+    }
+    a.header-phone-1 {
+      padding-left: 227px;
+    }
+    a.header-phone-2 {
+      padding-left: 117px;
+    }
+    p.phones {
+      color: white;
+      padding-left: 50px;
+    }
   }
   .navbar-toggler {
     font-size: 14px;

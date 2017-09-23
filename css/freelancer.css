@@ -67,14 +67,11 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto; }
 
-#about {
-  padding: 60px 0; }
-
 #contact {
   padding: 100px 0; }
 
 section {
-  padding: 180px 0; }
+  padding: 210px 0; }
   section h2 {
     font-size: 3em;
     margin: 0; }
@@ -130,6 +127,18 @@ section.success {
           outline: none; }
         #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
           color: white; }
+    #mainNav .navbar-nav .header-phone {
+      display: inline-block;
+      position: absolute;
+      margin-top: -30px;
+      font-size: 13px; }
+    #mainNav .navbar-nav a.header-phone-1 {
+      padding-left: 227px; }
+    #mainNav .navbar-nav a.header-phone-2 {
+      padding-left: 117px; }
+    #mainNav .navbar-nav p.phones {
+      color: white;
+      padding-left: 50px; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -295,6 +304,19 @@ header.masthead {
 .portfolio-modal .modal-backdrop {
   display: none;
   opacity: 0; }
+
+.floating-label-form-group-with-focus label {
+  color: white !important; }
+
+.form-control {
+  color: black; }
+
+.form-control::-webkit-input-placeholder {
+  color: white; }
+
+.form-control:focus {
+  background-color: #18bc9c;
+  color: white; }
 
 .floating-label-form-group {
   position: relative;

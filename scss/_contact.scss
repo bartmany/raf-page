@@ -1,4 +1,19 @@
 // Styling for the contact section
+.floating-label-form-group-with-focus {
+  label {
+    color: white !important;
+  }
+}
+.form-control {
+  color: black;
+}
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+.form-control:focus {
+  background-color: #18bc9c;
+  color: white;
+}
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
