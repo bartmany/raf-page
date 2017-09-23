@@ -61,6 +61,38 @@ gulp.task('minify-js', function() {
     }))
 });
 
+// Minify custom JS
+gulp.task('minify-contact-js', function() {
+  return gulp.src('js/contact_me.js')
+    .pipe(uglify())
+    .pipe(header(banner, {
+      pkg: pkg
+    }))
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('js'))
+    .pipe(browserSync.reload({
+      stream: true
+    }))
+});
+
+// Minify custom JS
+gulp.task('minify-jqBootstrap-js', function() {
+  return gulp.src('js/jqBootstrapValidation.js')
+    .pipe(uglify())
+    .pipe(header(banner, {
+      pkg: pkg
+    }))
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('js'))
+    .pipe(browserSync.reload({
+      stream: true
+    }))
+});
+
 // Copy vendor files from /node_modules into /vendor
 // NOTE: requires `npm install` before running!
 gulp.task('copy', function() {
