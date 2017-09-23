@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67a36d9-3cd5-4582-bcf4-2bcfbcc12f91" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jqBootstrapValidation.min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jqBootstrapValidation.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -49,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="213" column="31" lean-forward="true" selection-start-line="213" selection-start-column="31" selection-end-line="213" selection-end-column="31" />
+            <state relative-caret-position="443">
+              <caret line="215" column="9" lean-forward="true" selection-start-line="215" selection-start-column="9" selection-end-line="215" selection-end-column="9" />
               <folding>
                 <element signature="e#8448#8454#0" expanded="true" />
               </folding>
@@ -158,8 +156,8 @@
         <option value="$PROJECT_DIR$/scss/_contact.scss" />
         <option value="$PROJECT_DIR$/scss/_global.scss" />
         <option value="$PROJECT_DIR$/scss/_navbar.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -385,12 +383,12 @@
       <updated>1505400675450</updated>
       <workItem from="1505400679135" duration="6256000" />
       <workItem from="1505752601871" duration="110000" />
-      <workItem from="1506159535973" duration="7336000" />
+      <workItem from="1506159535973" duration="7400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13702000" />
+    <option name="totallyTimeSpent" value="13766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -686,16 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="213" column="31" lean-forward="true" selection-start-line="213" selection-start-column="31" selection-end-line="213" selection-end-column="31" />
-          <folding>
-            <element signature="e#8448#8454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -720,6 +708,16 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="215" column="9" lean-forward="true" selection-start-line="215" selection-start-column="9" selection-end-line="215" selection-end-column="9" />
+          <folding>
+            <element signature="e#8448#8454#0" expanded="true" />
           </folding>
         </state>
       </provider>
