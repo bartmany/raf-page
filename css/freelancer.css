@@ -139,6 +139,8 @@ section.success {
     #mainNav .navbar-nav p.phones {
       color: white;
       padding-left: 50px; }
+  #mainNav .navbar-collapse.show .header-phone {
+    display: none; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;

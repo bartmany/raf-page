@@ -51,6 +51,11 @@
       padding-left: 50px;
     }
   }
+  .navbar-collapse.show {
+    .header-phone {
+      display: none;
+    }
+  }
   .navbar-toggler {
     font-size: 14px;
     padding: 11px;
